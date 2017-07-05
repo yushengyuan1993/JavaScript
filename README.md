@@ -31,7 +31,7 @@ var jsonTxt = JSON.stringify(hero, function(k, v){
 });
 jsonTxt --> "{"name":"Annie","skills":["AlphaStrike"],"type":"Mage"}"
 ```
-*值的注意的是，如果函数返回了undefined，那么相应的属性会被忽略。另外请务必写上default，此时返回传入的值，以便其他值都能正常出现在结果中*
+*值得注意的是，如果函数返回了undefined，那么相应的属性会被忽略。另外请务必写上default，此时返回传入的值，以便其他值都能正常出现在结果中*
 > #### 2. 选项（字符串缩进）
 ```
 var jsonTxt1 = JSON.stringify(hero, null, 2);
